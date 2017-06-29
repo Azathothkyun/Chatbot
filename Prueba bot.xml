@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<context>
+  <input pattern="(hola|buenas) *">
+    <output value="Hola!"/>
+  </input>
+  <input pattern="(como&amp;estas?) *">
+    <output value="Bien&amp;y&amp;tu?"/>
+  </input>
+</context>
