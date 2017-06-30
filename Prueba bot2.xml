@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
+<input>
 <context>
   <input pattern="(Hola|buenas) *">
     <output value="Hola $UserName!" if="full($UserName)"/>
@@ -16,4 +17,4 @@
     </context>
   </input>
 </context>
-
+</input>
